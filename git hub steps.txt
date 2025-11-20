@@ -1,0 +1,20 @@
+1. create git hub account
+2.log in to git hub
+3.createa repository
+4.git download and intallation
+5.check git path in edit environment
+6.open a project and move to terminal
+#### commands
+7.cmd
+8.git init
+9.git config--global usar.name"usarname"
+10.git config--global usar.email"email"
+11.git remote=(repository checking command)
+12.git remote remove orgin=(remove existing responstiory)
+13.git remote add origin<respository path>
+14.git add .
+15.git commit -m "final call"
+16.git branch
+17.git branch -m main
+18.git branch
+19.git push orgin main

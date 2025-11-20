@@ -1,0 +1,397 @@
+*{
+    box-sizing: border-box;margin: 0;padding: 0; font-family: "Stack Sans Text", sans-serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=Stack+Sans+Text:wght@200..700&display=swap');
+header{
+    background-color: black;
+    color: white;
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+}
+
+header p:hover{
+    cursor: pointer;
+    color: darkred;
+}
+header p{
+    color: red;
+}
+header li:hover{
+    cursor: pointer;
+    color: red;
+}
+header li{
+    font-size:large;
+    font-weight: 500;
+}
+ header p{
+    font-size: x-large;
+    font-weight: bold;
+ }
+
+nav i{
+    color: white;
+    margin-left: 10px;
+}
+nav i:hover{
+    color: red;
+    cursor: pointer;
+}
+.header{
+    width: 100%;
+    height: 40px;
+    background-color: red;
+    color: white;
+    text-align: center;
+}
+
+.img-animation{
+    background-image: url(./Images/back.jpg);
+    background-size: 100% 100%;
+    height: 600px;
+    position:relative;
+    width: 100%;
+}
+
+ .animate1{
+    /* background-color: white; */
+    height: 600px;
+    width: 100%;
+    background-image: url(./Images/asus\ ani.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    animation-name: animate1;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    animation-delay: 16s;
+    animation-fill-mode: forwards;
+    animation-direction: reverse;
+ }
+ @keyframes animate1{
+    100%{
+        opacity: -1;
+    }
+ }
+ .animate2{
+     height: 600px;
+    width: 100%;
+    background-image: url(./Images/asus\ ani2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position:absolute;
+      animation-name: animate2;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    animation-delay: 14s;
+    animation-fill-mode: forwards;
+    /* animation-direction: reverse; */
+    top:0
+ }
+ @keyframes animate2{
+    100%{
+        opacity: -1;
+    }
+ }
+ .animate3{
+     height: 600px;
+    width: 100%;
+    background-image: url(./Images/asus\ ani3.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position:absolute;
+      animation-name: animate3;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    animation-delay: 12s;
+    animation-fill-mode: forwards;
+    /* animation-direction: reverse; */
+    top:0;
+    left: 0;
+ }
+ @keyframes animate3{
+    100%{
+        opacity: -1;
+    }
+ }
+ .animate3{
+     height: 600px;
+    width: 100%;
+    background-image: url(./Images/asus\ ani3.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position:absolute;
+      animation-name: animate3;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    animation-delay: 10s;
+    animation-fill-mode: forwards;
+    /* animation-direction: reverse; */
+    top:0;
+    left: 0;
+ }
+ @keyframes animate3{
+    100%{
+        opacity: -1;
+    }
+ }
+ .animate4{
+     height: 600px;
+    width: 100%;
+    background-image: url(./Images/asus\ ani4.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position:absolute;
+      animation-name: animate4;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    animation-delay: 8s;
+    animation-fill-mode: forwards;
+    /* animation-direction: reverse; */
+    top:0;
+    left: 0;
+ }
+ @keyframes animate4{
+    100%{
+        opacity: -1;
+    }
+ }
+ .animate5{
+     height: 600px;
+    width: 100%;
+    background-image: url(./Images/asus\ ani5.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position:absolute;
+      animation-name: animate5;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    animation-delay: 6s;
+    animation-fill-mode: forwards;
+    /* animation-direction: reverse; */
+    top:0;
+    left: 0;
+ }
+ @keyframes animate5{
+    100%{
+        opacity: -1;
+    }
+ }
+ .animate6{
+     height: 600px;
+    width: 100%;
+    background-image: url(./Images/asus\ ani6.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position:absolute;
+      animation-name: animate6;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    animation-delay: 4s;
+    animation-fill-mode: forwards;
+    /* animation-direction: reverse; */
+    top:0;
+    left: 0;
+ }
+ @keyframes animate6{
+    100%{
+        opacity: -1;
+    }
+ }
+ .animate7{
+     height: 600px;
+    width: 100%;
+    background-image: url(./Images/asus\ ani7.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position:absolute;
+      animation-name: animate7;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+    /* animation-direction: reverse; */
+    top:0;
+    left: 0;
+ }
+ @keyframes animate7{
+    100%{
+        opacity: -1;
+    }
+ }
+ .eximg{
+height: 300px;
+width: 300px;
+ }
+ .exp{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+ .exp p:hover{
+border-bottom: 1px solid orangered;
+cursor: pointer;
+ }
+ .explore{
+    height:400px;
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    /* overflow-x: hidden; */
+ }
+ .explore+h1{
+    text-align: center;
+    background-color: black;
+    /* color: black; */
+    color: white;
+ }
+   .secondrow{
+        background-color: black;
+        display: grid;
+        padding: 10px;
+        grid-template-columns: repeat(3,1fr);
+        gap: 20px;
+        height: 600px;
+        box-sizing: border-box;
+        background-image: url(./Images/back.jpg);
+        background-repeat: repeat;
+        background-size: 100% 100%;
+    }
+.container{
+    background: #ff0000;
+    border-radius: 10px;
+}
+.secondrow{
+    perspective: 800px;
+}
+.a:hover{
+transform: translateZ(10px);
+transition-timing-function: linear;
+transition-duration: 0.1s;
+}
+.a{
+    background-image: url(./Images/a.png);
+    background-size: cover;
+}
+
+.b{
+    background-image: url(./Images/b.png);
+    background-size: cover;
+}
+.b:hover{
+transform: translateZ(10px);
+transition-timing-function: linear;
+transition-duration: 0.1s;
+}
+
+.c{
+    background-image: url(./Images/c.png);
+    background-size: cover;
+}
+.c:hover{
+transform: translateZ(10px);
+transition-timing-function: linear;
+transition-duration: 0.1s;
+}
+.d{
+    grid-column-start: 2;
+    grid-row: 1/3;
+    background-image: url(./Images/d.png);
+    background-size: cover;
+}
+.d:hover{
+transform: translateZ(10px);
+transition-timing-function: linear;
+transition-duration: 0.1s;
+}
+.e{
+    background-image: url(./Images/e.png);
+    background-size: cover;
+}
+.e:hover{
+transform: translateZ(10px);
+transition-timing-function: linear;
+transition-duration: 0.1s;
+}
+.container{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.container li{
+    font-family: "Arima", system-ui;
+     font-size: large;
+    font-weight: 900;
+    color: black;
+    text-shadow:  0 0 1px #F4F754;
+}
+ .footer{
+    height: 150px;
+    width: 100%;
+    color: white;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    border-bottom:2px solid #808080;
+ }
+.footer i{
+    color: #52525252;
+    /* color: white; */
+    font-size: 40px;
+}
+.footer i:hover{
+    color: whitesmoke;
+}
+.footer button{
+    height: 30px;
+    border: 1px solid red;
+    width: 100px;
+    color: white;
+    background-color: red;
+    /* margin-top: 50px; */
+    margin-right: 20px;
+    font-size: large;
+}
+.footer p6{
+    position:absolute;
+    right: 210px;
+    text-transform: uppercase;
+    /* font-size: small; */
+    top: 30px;
+}
+.footer input{
+    height: 40px;
+    width: 270px;
+     /* margin-top: 50px; */
+    background-color: black;
+    color: white;
+    border: 1px solid #52525252;
+}
+.fixed{
+    background-color: #52525252;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+}
+.fixed img{
+    width: 100%;
+    height: 100%;
+    border-radius:50% ;
+}

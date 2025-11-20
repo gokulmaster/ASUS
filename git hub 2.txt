@@ -1,0 +1,6 @@
+
+respotory>setting
+
+pages>none>main>save
+
+deploy from branch>git hub action click>static html>config>commit changes
